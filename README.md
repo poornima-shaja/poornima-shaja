@@ -1,16 +1,28 @@
-## Hi there 👋
+# Hi there! I'm Poornima 👋
 
-<!--
-**poornima-shaja/poornima-shaja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👩🏻‍💻 IT Postgraduate | Python Developer in the making  
+🧠 Passionate about AI, Flask & Real-World Projects  
+👩‍🏫 Primary School IT Teacher | Nurturing future techies  
+🌱 Currently learning: Advanced Python, DSA, & AI  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Tech Stack  
+- Languages: Python, HTML, CSS  
+- Frameworks: Flask  
+- Tools: Git, GitHub, VS Code  
+- Interests: Building impactful tools for learning & accessibility
+
+---
+
+### 💫 Fun Facts  
+- 💜 K-pop makes my code sessions extra sparkly  
+- ☁️ I believe in dreaming big and coding with heart  
+- 🎯 Always up for creating tech with purpose
+
+---
+
+### 📫 Let’s Connect!  
+- 📧 Email: poornimanadar1234@gmail.com  
+- 💼 LinkedIn: [Your LinkedIn](www.linkedin.com/in/
+poornima-shunmuganathan-2285b5241)  
