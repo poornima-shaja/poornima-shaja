@@ -3,7 +3,7 @@
 👩🏻‍💻 IT Postgraduate | Python Developer in the making  
 🧠 Passionate about AI, Flask & Real-World Projects  
 👩‍🏫 Primary School IT Teacher | Nurturing future techies  
-🌱 Currently learning: Advanced Python, DSA, & AI  
+🌱 Currently learning: Advanced Python, DSA, & AI
 
 ---
 
