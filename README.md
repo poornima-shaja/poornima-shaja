@@ -16,7 +16,7 @@
 ---
 ### 📜 Certifications  
 ![Python](https://img.shields.io/badge/SoloLearn-Python%20Certified-blueviolet?style=for-the-badge&logo=python)  
-- 🐍 **Python Developer Certificate** – [View Certificate](1000352339.png)  
+- 🐍 **Python Developer Certificate** – [View Certificate](Solo_learn_Python_Developer_Certificate.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on May 2025*
 
 ![HTML](https://img.shields.io/badge/SoloLearn-HTML%20Certified-orange?style=for-the-badge&logo=html5)  
