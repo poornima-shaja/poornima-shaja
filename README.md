@@ -20,7 +20,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on May 2025*
 
 ![HTML](https://img.shields.io/badge/SoloLearn-HTML%20Certified-orange?style=for-the-badge&logo=html5)  
-- 🌐 **HTML Certificate** – [View Certificate](solo learn HTML certificate.png)  
+- 🌐 **HTML Certificate** – [View Certificate](solo_learn_HTML_Certificate.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on August 2020*
 
 ---
