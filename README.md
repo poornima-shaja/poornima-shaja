@@ -20,9 +20,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on May 2025*
 
 ![HTML](https://img.shields.io/badge/SoloLearn-HTML%20Certified-orange?style=for-the-badge&logo=html5)  
-🌐 **HTML Certificate**  
-📅 *Completed in August 2020 | Issued by SoloLearn*  
-🪄 My first-ever step into tech — and I still remember the excitement! 💖
+- 🌐 **HTML Certificate** – [View Certificate](your-html-certificate-link-here)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on August 2020*
 
 ---
 
