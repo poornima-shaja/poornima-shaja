@@ -16,6 +16,10 @@
 ---
 ### 📜 Certifications  
 ![Python](https://img.shields.io/badge/SoloLearn-Python%20Certified-blueviolet?style=for-the-badge&logo=python)  
+- 🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on June 2025*
+
+![Python](https://img.shields.io/badge/SoloLearn-Python%20Certified-blueviolet?style=for-the-badge&logo=python)  
 - 🐍 **Python Developer Certificate** – [View Certificate](Solo_learn_Python_Developer_Certificate.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on May 2025*
 
