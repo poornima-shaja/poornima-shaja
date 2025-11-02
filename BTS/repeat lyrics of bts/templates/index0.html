@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BTS Lyrics Analyzer</title>
+
+    <style>
+        /* Apply CSS styles directly within this <style> block */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005f8f;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>BTS Lyrics Analyzer - Analyzing Repeated Words and Displaying Full Lyrics</h1>
+    <form action="/analyze" method="POST">
+        <input type="text" name="songs" placeholder="Enter the song">
+        <label for="lyrics">Lyrics:</label>
+        <textarea id="lyrics" name="lyric" rows="4" cols="50" placeholder="Enter the lyrics"></textarea>
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>

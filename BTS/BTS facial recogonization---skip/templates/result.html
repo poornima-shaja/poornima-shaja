@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+</head>
+<body>
+    <h1>File Upload Success</h1>
+    <h2>Uploaded File:</h2>
+    <p>ID: {{ upload.id }}</p>
+    <p>Filename: {{ upload.filename }}</p>
+
+    {% if user_name %}
+     <p>   <b>{{ user_name }}</b></p>
+        {% endif %}
+    <!-- Display the rendered image -->
+    <img src="data:image/jpeg;base64,{{ upload.rendered_data }}" alt="{{ upload.filename }}" width="300">
+
+
+
+
+</body>
+</html>

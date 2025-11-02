@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        /* Basic CSS styles for the navigation bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333; /* Background color for the navigation bar */
+            overflow: hidden;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #ddd; /* Background color on hover */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to ARMYNetwork 방탄소년단</h1>
+
+    {% if user_name %}
+<p>Welcome, {{ user_name }}!</p>
+{% else %}
+<p> ARMYNetwork Welcome You Army!!!!!💜💜💜</p>
+{% endif %}
+
+    <!-- Navigation bar -->
+    <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/register">Registeration</a></li>
+        <li><a href="/upload">Upload</a></li>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/feed">Feed</a></li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+
+    <!-- Content sections -->
+    <section id="home">
+        <h2>Home Section</h2>
+        <!-- Your home content goes here -->
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <!-- Your about content goes here -->
+    </section>
+
+    <section id="upload">
+        <h2>Upload Section</h2>
+        <!-- Your upload content goes here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <!-- Your contact content goes here -->
+    </section>
+</body>
+</html>

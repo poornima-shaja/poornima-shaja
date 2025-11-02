@@ -1,0 +1,19 @@
+#a=int(input("enter your number :"))
+#for i in range(10):
+    #if (i==10):
+       # break 
+    #print(""str a" X",i+1,"=",a*(i+1))
+
+
+
+
+
+a = int(input("enter your number :"))
+for i in range(10):
+    if i == 9:  # We want to stop the loop before i becomes 10
+        break
+    print(str(a) +" x "+str(i+1) +"="+str(a*(i+1)))
+    
+
+
+

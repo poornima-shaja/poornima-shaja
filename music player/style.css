@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Gentium+Plus:ital@1&display=swap');
+body{
+    background-color:rgb(113, 0, 128);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Gentium Plus', serif;;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height:79px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width:102px;
+    height:79px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 59%;
+    border-radius: 12px;
+    background-image: url(https://wallpapers.com/images/high/purple-aesthetic-bridge-me8yr4lxsd6kyhkm.jpg);
+}
+.Bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 150vh;
+    cursor: pointer;
+    color: #000;
+}
+
+.songItemsContainer{
+    margin-top: 34px;
+}
+.songItems{
+    height: 49px;
+    display:flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 34px;
+    align-items: center;
+
+}
+
+.songItems img{
+    width: 47px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+
+.timestamp{
+    margin: 0 23px  ;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position:absolute;
+    left: 10vw;
+    font-family: 'EB Garamond', serif;
+}
+.singinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

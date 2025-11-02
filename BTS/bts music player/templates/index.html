@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BTS Music Player</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    
+    <h1> <img src="{{ url_for('static', filename='download.png') }}" class="logo"> BTS Music Player</h1>
+    <p>Enjoy ths songs!!!</p>
+    <ul>
+        {% for song in songs %}
+            <li>
+                {{ song.title }}
+                <audio controls>
+                    <source src="{{ url_for('static', filename='audio/' + song.title + '.mp3') }}" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

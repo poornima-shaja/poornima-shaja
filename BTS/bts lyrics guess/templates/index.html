@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                text-align: center; /* Center text horizontally */
+            }
+    
+            h1 {
+                color: #333;
+            }
+    
+            p {
+                color: #555;
+            }
+    
+            button {
+            background-color: #800080;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-bottom: 10px; /* Add margin at the bottom of the button */
+        }
+        .next {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    
+        .hidden {
+            display: none;
+        }
+        </style>
+    </head>
+<body>
+
+<h1>BTS LYRICS GUESS</h1>
+<p>GUESS THE BTS SONG ONLY WITH THE GIVEN LYRICS</p>
+<h3>{{selected_lyrics}}</h3>
+
+<br>
+
+<!-- Add a button to reveal the song name -->
+<button id="revealButton">Show Song Name</button>
+
+<!-- Initially hide the song name using a CSS class -->
+<p id="songName" class="hidden">{{song_name}}</p>
+<br>
+<form action="/next">
+    <button type="submit" class="next">Next</button>
+</form>
+
+
+<script>
+    // Get references to the button and the hidden song name element
+    const revealButton = document.getElementById('revealButton');
+    const songName = document.getElementById('songName');
+
+    // Add a click event listener to the button
+    revealButton.addEventListener('click', function() {
+        // Toggle the visibility of the song name element
+        if (songName.style.display === 'none' || songName.style.display === '') {
+            songName.style.display = 'block';
+            revealButton.textContent = 'Hide Song Name';
+        } else {
+            songName.style.display = 'none';
+            revealButton.textContent = 'Show Song Name';
+        }
+    });
+</script>
+
+</body>
+</html>

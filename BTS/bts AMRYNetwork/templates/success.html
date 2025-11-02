@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+</head>
+<body>
+    <h1>File Upload Success</h1>
+    <h2>Uploaded File:</h2>
+    <p>ID: {{ upload.id }}</p>
+    <p>Filename: {{ upload.filename }}</p>
+
+    {% if user_name %}
+     <p>   <b>{{ user_name }}</b></p>
+        {% endif %}
+    <!-- Display the rendered image -->
+    <img src="data:image/jpeg;base64,{{ upload.rendered_data }}" alt="{{ upload.filename }}" width="300">
+
+    <!-- Display the number of likes and comments -->
+<p>Likes: {{ upload.likes }}</p>
+<p>Comments: {{ upload.comments.count() }}</p>
+
+<!-- Like button -->
+<form action="{{ url_for('like', file_id=upload.id) }}" method="POST">
+    <button type="submit">Like</button>
+</form>
+
+<!-- Comment form -->
+<form action="{{ url_for('comment', file_id=upload.id) }}" method="POST">
+    <input type="text" name="comment_text" placeholder="Add a comment">
+    <button type="submit">Comment</button>
+</form>
+
+<!-- Display existing comments -->
+<ul>
+    {% for comment in upload.comments %}
+        <li>{{ comment.text }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>

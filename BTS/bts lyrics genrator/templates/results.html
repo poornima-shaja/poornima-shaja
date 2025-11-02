@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; background-color: #f0f0f0;">
+
+    <h2 style="color: #007bff;">Search Results for "{{ keyword }}"</h2>
+
+    {% for lines in selected_lines %}
+    <ul style="list-style-type: disc; text-align: left; padding-left: 20px;">
+        {{ lines|safe }} <!-- Use the |safe filter to allow HTML tags if needed -->
+    </ul>
+    {% endfor %}
+
+</body>
+</html>

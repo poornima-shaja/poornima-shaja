@@ -1,0 +1,36 @@
+body{
+    background-color:whitesmoke;
+}
+
+#container{
+    background-color: black;
+    border: 5px solid purple;
+    height: 300px;
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    
+}
+#button{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    background-color: purple;
+    color: black;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: palevioletred;
+  }
+
+#quote{
+    margin: auto;
+    font-size: 20px;
+    
+}
+#author{
+    font-size: large;
+}

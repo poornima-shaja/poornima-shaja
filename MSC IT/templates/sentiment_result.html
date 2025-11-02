@@ -1,0 +1,53 @@
+{% extends 'layout.html' %}
+{%block body%}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lyrics Analysis</title>
+    <style>
+        /* Apply CSS styles directly within this <style> block */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #800080;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 23px;
+        }
+        p {
+            font-size: 20px;
+            width: 70%; /* Set the width to 50% of the page */
+            
+        }
+
+        td {
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Sentiment Analysis of given text</h1>
+    <table>
+        <tr>
+            <td>Emotion</td>
+        </tr>
+        {% for emotion in emotion_list %}
+        <tr>
+            <td>{{ emotion }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h3>Modified Lyrics:</h3>
+    <br></br>
+    <p>{{ modified_lyrics | safe }}</p>  <!-- Use the "safe" filter to render HTML tags -->
+</body>
+</html>
+{%endblock%}

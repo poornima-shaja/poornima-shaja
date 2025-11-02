@@ -1,0 +1,6 @@
+dict1={"name":"hari","age":19,"can vote":"yes","gender":"male"}
+print(dict1["gender"])
+print(dict1.keys())
+print(dict1.values())
+
+

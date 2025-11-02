@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyrics Analysis</title>
+</head>
+<body>
+    <h1>Lyrics Analysis</h1>
+    <form method="POST" action="/analyze">
+        <label for="song_name">Song Name:</label>
+        <input type="text" id="song_name" name="song_name" required><br><br>
+        
+        <label for="lyrics">Lyrics:</label>
+        <textarea id="lyrics" name="lyrics" rows="5" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BTS Quiz</title>
+</head>
+<body>
+    <form method="post" action="/results">
+        {% for question in questions %}
+        <h3>{{ question['question'] }}</h3>
+        <ul>
+            {% for option, member in question['options'].items() %}
+            <li>
+                <label>
+                    <input type="radio" name="{{ question['question'] }}" value="{{ option }}">
+                    {{ option }}
+                </label>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

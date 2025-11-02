@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Assistance System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+        .container {
+            margin: 20px;
+        }
+        video {
+            width: 640px;
+            height: 480px;
+            margin-top: 20px;
+            border: 2px solid #ccc;
+        }
+        .question-box {
+            margin-top: 20px;
+            padding: 10px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .answer {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .description-box {
+            margin-top: 30px;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blind Assistance System</h1>
+        <p>Camera Feed</p>
+        <img src="{{ url_for('video_feed') }}" id="video-feed" alt="Video feed">
+
+        <div class="question-box">
+            <input type="text" id="question-input" placeholder="Ask a question..." />
+            <button onclick="askQuestion()">Ask Question</button>
+        </div>
+
+        <div class="answer" id="answer-display"></div>
+
+        <div class="description-box">
+            <p><strong>Scene Description:</strong></p>
+            <p id="scene-description">Waiting for description...</p>
+        </div>
+    </div>
+
+    <script>
+        function askQuestion() {
+            const question = document.getElementById("question-input").value;
+            if (question) {
+                fetch(`/ask?question=${question}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("answer-display").innerText = data.answer;
+                    });
+            }
+        }
+
+        // Periodically fetch the scene description
+        setInterval(function() {
+            fetch('/get_description')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("scene-description").innerText = data.description;
+                });
+        }, 5000);  // Update every 5 seconds
+    </script>
+</body>
+</html>

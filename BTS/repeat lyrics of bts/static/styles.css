@@ -1,0 +1,26 @@
+/* Style the radio button label */
+label {
+    display: block;
+    position: relative;
+    padding-left: 30px; /* Space for a custom radio button icon */
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the custom radio button icon */
+label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007BFF; /* Change the border color */
+    border-radius: 50%; /* Makes it round */
+}
+
+/* Style the custom radio button icon when selected */
+input[type="radio"]:checked + label::before {
+    background-color: #007BFF; /* Change the fill color when selected */
+}

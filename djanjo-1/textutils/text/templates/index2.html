@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/analyze" method='get'>
+    <label for="text">Review of W3Schools:</label> <br>
+
+    <textarea  name="text" rows="6" cols="50"></textarea><br>
+    <input type ="checkbox" name='removepunc'>
+    <label for="text">Remove punctuation</label> <br>
+    <input type ="checkbox" name='charcount'>
+    <label for="text">Remove charcount</label> <br>
+    <input type ="checkbox" name='charupper'>
+    <label for="text">Remove charupper</label> <br>
+    <input type ="checkbox" name='removernewline'>
+    <label for="text">Remove removernewline</label> <br>
+  <input type="submit" value="Analyze">
+</form> 
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Your analyzed text -- {{purpose}}</h2>
+
+<p>{{analyzed_text}}</p>
+
+</body>
+</html>

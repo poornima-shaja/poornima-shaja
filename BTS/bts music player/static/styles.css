@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Style the page body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the heading */
+h1 {
+    background-color: #e31c90f2;
+    color: #0b0a0a;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+}
+/* Style the list of songs */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style each song item in the list */
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(235, 39, 153, 0.909);
+}
+
+/* Style the audio player */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+img{
+    height: 70px;
+    width: 80px;
+    top: 25px; /* Adjust the top position as needed */
+    left: 10px;
+    position: absolute;
+
+}

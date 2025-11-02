@@ -1,0 +1,24 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>BTS Quiz</title>
+    </head>
+    <body>
+        <h1>BTS Quiz</h1>   
+        <p>Welcome, {{ user_input }}!</p>     
+        <form method="POST" action="/quiz">
+            <h2>Question:</h2>
+            {% if question %}
+                <p>{{ question }}</p>
+                <input type="radio" id="correct_option" name="option" value="correct">
+                <label for="correct_option">{{ answer}}</label><br>
+                <input type="radio" id="wrong_option" name="option" value="wrong">
+                <label for="wrong_option">{{ wrong_option }}</label><br>
+                <br>
+                <input type="submit" value="Submit">
+            {% else %}
+                <p>No more questions available.</p>
+            {% endif %}
+        </form>
+    </body>
+    </html>

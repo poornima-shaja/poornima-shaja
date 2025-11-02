@@ -1,0 +1,7 @@
+print(2+3)#addition
+print(3-2)#subtraction
+print(2*3)#multiplication
+print(2/3)#division
+print(2%3)#module
+print(2//3)#floor division
+print(2**3)#exponentiol

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feed</title>
+</head>
+<body>
+    <!-- Display the feed of uploaded files -->
+    <h1>Feed</h1>
+    <ul>
+        {% for file in users %}
+            <li>
+                <h2>{{ file.filename }}</h2>
+                <p>Uploaded by: {{ file.name }}</p>
+                <img src="data:image/jpeg;base64,{{ file.rendered_data }}" alt="{{ file.filename }}" width="300">
+                <p>Captions: {{ file.textarea }}</p>
+                <p>Likes: {{ file.likes }}</p>
+                <p>Comments: {{ file.comments.count() }}</p>
+                <!-- Like button and comment form here -->
+                <form action="{{ url_for('like', file_id=file.id) }}" method="POST">
+                    <button type="submit">Like</button>
+                </form>
+                <form action="{{ url_for('comment', file_id=file.id) }}" method="POST">
+                    <input type="text" name="comment_text" placeholder="Add a comment">
+                    <button type="submit">Comment</button>
+                </form>
+                <!-- Display existing comments -->
+                <ul>
+                    {% for comment in file.comments %}
+                        <li>{{ comment.text }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>

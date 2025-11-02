@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProject</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="full-page">
+        
+        <div class="navbar">
+            <!-- <div>
+               <a href="website.html">Project</a>
+               <footer>
+                    <div class="quote"><p>Show your real self with the bit of euphonious</p> </div> 
+               </footer>
+            </div>    -->
+            
+                <nav>
+                
+                    <ul id="menuitems">
+                        <li><a href="http://">HOME</a></li>
+                        <li><a href="http://">USE CAMERA</a></li>
+                        <!-- <li><a href="http://">USE EMOJE</a></li> -->
+                        <li><a href="http://">ABOUT US</a></li>
+                        <li><button class='login-btn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">LOGIN</button></li>
+                    </ul>
+                </nav>
+               
+            </div>
+            <div id="login-form" class="login-page">
+                <!--creating the form box-->
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type='button' onclick='login()' class='toggle-btn'>Login</button>
+                        <button type='button' onclick='register()' class='toggle-btn'>Register</button>
+                    </div>
+
+                 <!--creating login form-->
+                 <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required> 
+                    <input type="checkbox" class="check-box"> <span>Remember password</span>
+                    <button type="submit" class="submit-btn">Login</button>   
+                 </form>
+
+                 <!--creating register form-->
+                 <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="First name" required>
+                    <input type="text" class="input-field" placeholder="Last name" required>
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required>
+                    <input type="password" class="input-field" placeholder="Confirm password" required>
+                    <input type="checkbox" class="check-box"> <span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                 </form>
+                </div>
+            </div>
+            <div class="subtitle">
+                <h1>Spotify Music Recommender User Facial Expression</h1>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="project.js"></script>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lyrics Analysis</title>
+    <style>
+        /* Apply CSS styles directly within this <style> block */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #800080;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .summary {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    {% if user_song %} 
+    <h1>Lyrics Analysis Result for {{ user_song }}</h1>
+
+    <h2>Summary:</h2>
+    <div class="summary">
+        {% for sentence in summary_2 %}
+        <p>{{ sentence }}</p>
+        {% endfor %}
+    </div>
+    <a href="/">Back to Home</a>
+    {% else %}
+    <h1>Lyrics Analysis Result for {{ song_name }}</h1>
+    
+    <h2>Summary:</h2>
+    <div class="summary">
+        {% for sentence in summary_1 %}
+        <p>{{ sentence }}</p>
+        {% endfor %}
+    </div>
+    
+    <a href="/">Back to Home</a>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,2 @@
+tuple=(("parrot","sparrow"),("lion","tiger"))
+print(type (tuple))

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lyrics Analysis</title>
+    <style>
+        /* Apply CSS styles directly within this <style> block */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #800080;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    {% if user_song %} 
+    <h1>Lyrics Analysis Result for {{ user_song }}</h1>
+    <h2>Most Common Word (User Input): {{ user_most_common_word }}</h2>
+    
+    <h2>Lyrics:</h2>
+    <pre>{{ user_input_data.user_lyrics }}</pre>
+    <a href="/">Back to Home</a>
+    {% else %}
+    <h1>Lyrics Analysis Result for {{ song_name }}</h1>
+    
+    <h2>Most Common Word (BTS Song): {{ most_common_word }}</h2>
+    
+    <h2>Lyrics:</h2>
+    <pre>{{ lyrics }}</pre>
+    
+    <a href="/">Back to Home</a>
+    {% endif %}
+</body>
+</html>

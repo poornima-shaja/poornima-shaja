@@ -1,0 +1,541 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:37:03] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 82, in analyze
+    user_input_data = UserInput.query.order_by(UserInput.id.desc()).first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2823, in first
+    return self.limit(1)._iter().first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2907, in _iter
+    result = self.session.execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: SELECT user_input.id AS user_input_id, user_input.user_song AS user_input_user_song, user_input.user_lyrics AS user_input_user_lyrics 
+FROM user_input ORDER BY user_input.id DESC 
+ LIMIT %s]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:38:48] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:39:45] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 68, in analyze
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3429, in flush
+    self._flush(objects)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3569, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3529, in _flush
+    flush_context.execute()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: INSERT INTO user_input (user_song, user_lyrics) VALUES (%s, %s)]
+[parameters: ('one of your girls', "Lock me up and throw away the key\r\nHe knows how to get the best out of me\r\nI'm no fools for the world to see\r\nTrade my whole life just to be\r\ ... (1541 characters truncated) ... rls tonight (tonight)\r\nWe don't gotta be in love, no\r\nI don't gotta be the one, no (oh)\r\nI just wanna be one of your girls tonight, oh (oh)\r\n")]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:39:55] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:41:29] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 68, in analyze
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3429, in flush
+    self._flush(objects)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3569, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3529, in _flush
+    flush_context.execute()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: INSERT INTO user_input (user_song, user_lyrics) VALUES (%s, %s)]
+[parameters: ('one of your girls', "Lock me up and throw away the key\r\nHe knows how to get the best out of me\r\nI'm no fools for the world to see\r\nTrade my whole life just to be\r\ ... (1537 characters truncated) ... r girls tonight (tonight)\r\nWe don't gotta be in love, no\r\nI don't gotta be the one, no (oh)\r\nI just wanna be one of your girls tonight, oh (oh)")]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:41:38] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 68, in analyze
+    db.session.commit()
+  File "<string>", line 2, in commit
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3429, in flush
+    self._flush(objects)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3569, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 3529, in _flush
+    flush_context.execute()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: INSERT INTO user_input (user_song, user_lyrics) VALUES (%s, %s)]
+[parameters: ('one of your girls', "Lock me up and throw away the key\r\nHe knows how to get the best out of me\r\nI'm no fools for the world to see\r\nTrade my whole life just to be\r\ ... (1537 characters truncated) ... r girls tonight (tonight)\r\nWe don't gotta be in love, no\r\nI don't gotta be the one, no (oh)\r\nI just wanna be one of your girls tonight, oh (oh)")]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:42:54] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 01:42:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:06:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:06:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 82, in analyze
+    user_input_data = UserInput.query.order_by(UserInput.id.desc()).first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2823, in first
+    return self.limit(1)._iter().first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2907, in _iter
+    result = self.session.execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: SELECT user_input.id AS user_input_id, user_input.user_song AS user_input_user_song, user_input.user_lyrics AS user_input_user_lyrics 
+FROM user_input ORDER BY user_input.id DESC 
+ LIMIT %s]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:08:37] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 82, in analyze
+    user_input_data = UserInput.query.order_by(UserInput.id.desc()).first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2823, in first
+    return self.limit(1)._iter().first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2907, in _iter
+    result = self.session.execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: SELECT user_input.id AS user_input_id, user_input.user_song AS user_input_user_song, user_input.user_lyrics AS user_input_user_lyrics 
+FROM user_input ORDER BY user_input.id DESC 
+ LIMIT %s]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:08:52] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:09:59] "GET / HTTP/1.1" 200 -
+ERROR:app:Exception on /analyze [POST]
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "c:/Users/veathavalli/Desktop/.vscode/summary generator--- skip/app.py", line 82, in analyze
+    user_input_data = UserInput.query.order_by(UserInput.id.desc()).first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2823, in first
+    return self.limit(1)._iter().first()
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\query.py", line 2907, in _iter
+    result = self.session.execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\compat.py", line 208, in raise_
+    raise exception
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\veathavalli\AppData\Local\Programs\Python\Python38\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1146, "Table 'bts_lyrics_summary.user_input' doesn't exist")
+[SQL: SELECT user_input.id AS user_input_id, user_input.user_song AS user_input_user_song, user_input.user_lyrics AS user_input_user_lyrics 
+FROM user_input ORDER BY user_input.id DESC 
+ LIMIT %s]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:11:27] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [23/Sep/2023 19:13:00] "GET / HTTP/1.1" 200 -
