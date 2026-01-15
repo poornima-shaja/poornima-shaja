@@ -1,6 +1,0 @@
-# String are immutable
-a = "karthik"
-print(len(a))
-print(a)
-print(a.upper())
-print(a.lower())

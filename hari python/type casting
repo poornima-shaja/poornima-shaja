@@ -1,8 +1,0 @@
-# a="1"
-a = 1
-# b="2"
-b = 2
-print(a+b)
-#print(int(a)+int(b))
-#type casting in python
-#the conversion of one data type into the other data type is known as type casting in python or type conversion in python
