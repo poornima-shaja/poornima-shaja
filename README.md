@@ -1,8 +1,9 @@
 # Hi there! I'm Poornima 👋
 
-👩🏻‍💻 IT Postgraduate | Python Developer in the making  
+👩‍🏫 Assistant Professor (IT/CS) | University of Mumbai
+🎓 Academic Year Topper – B.Sc. & M.Sc.
+🧠 AI & Applied Computing Enthusiast 
 🧠 Passionate about AI, Flask & Real-World Projects  
-👩‍🏫 Primary School IT Teacher | Nurturing future techies  
 🌱 Currently learning: Advanced Python, DSA, & AI
 
 ---
