@@ -18,8 +18,8 @@ University of Mumbai
 ---
 
 ### 🏆 Academic Achievements  
-- 🏅 Academic Year Topper – M.Sc. IT
-- 🏅 Academic Year Topper – B.Sc. IT
+- 🥈 Academic Year Rank 2 – M.Sc. IT (College Level)
+- 🥉 Academic Year Rank 3 – B.Sc. IT (College Level)
 
 --- 
 
