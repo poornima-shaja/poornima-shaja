@@ -1,6 +1,6 @@
 # Hi there! I'm Poornima 👋
 
-👩‍🏫 Assistant Professor (IT/CS) | University of Mumbai
+👩‍🏫 Assistant Professor (IT/CS) under University of Mumbai
 🎓 Academic Year Topper – B.Sc. & M.Sc. IT
 👩🏻‍💻 Python Developer | AI & Applied Computing Enthusiast
 📚 Exploring AI Applications & Research-Oriented Projects
@@ -8,9 +8,9 @@
 ---
 
 ### 🛠 Tech Stack  
-- Languages: Languages: Python, HTML, CSS, SQL
+- Languages: Python, HTML, CSS, SQL
 - Frameworks: Flask (projects), Django (basics)
-- AI Exposure: CNN implementation (TensorFlow/Keras)
+- AI Exposure: Convolutional Neural Network (CNN) implementation using TensorFlow/Keras
 - Tools: Git, GitHub, VS Code, Jupyter, Google Colab
 - App Dev: Android Studio (academic projects)
 
@@ -39,14 +39,14 @@
 ---
 
 ### 📚 Professional Development
-- CS50’s Web Programming with Python & JavaScript – In Progress
+- CS50’s Web Programming with Python & JavaScript (Harvard) – In Progress
 - freeCodeCamp – Responsive Web Design Certification (In Progress)
 
 ---
 
 ### 🔬 Research Interests 
 - Responsible AI 
-- Deepfake Detection
+- Deepfake Detection System
 - AI in Education
 
 ---
