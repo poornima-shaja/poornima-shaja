@@ -41,6 +41,7 @@
 - 💜 K-pop makes my code sessions extra sparkly  
 - ☁️ I believe in dreaming big and coding with heart  
 - 🎯 Always up for creating tech with purpose
+- 🔬 Research Interests about AI
 
 ---
 
