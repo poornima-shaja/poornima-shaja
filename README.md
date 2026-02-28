@@ -1,20 +1,28 @@
 # Hi there! I'm Poornima 👋
 
 👩‍🏫 Assistant Professor (IT/CS) | University of Mumbai
-🎓 Academic Year Topper – B.Sc. & M.Sc.
-🧠 AI & Applied Computing Enthusiast 
-🧠 Passionate about AI, Flask & Real-World Projects  
-📚 Currently exploring: Advanced AI Applications & Research-Oriented Projects
+🎓 Academic Year Topper – B.Sc. & M.Sc. IT
+👩🏻‍💻 Python Developer | AI & Applied Computing Enthusiast
+📚 Exploring AI Applications & Research-Oriented Projects
 
 ---
 
 ### 🛠 Tech Stack  
-- Languages: Python, HTML, CSS  
-- Frameworks: Flask  
-- Tools: Git, GitHub, VS Code  
-- Interests: Building impactful tools for learning & accessibility
+- Languages: Languages: Python, HTML, CSS, SQL
+- Frameworks: Flask (projects), Django (basics)
+- AI Exposure: CNN implementation (TensorFlow/Keras)
+- Tools: Git, GitHub, VS Code, Jupyter, Google Colab
+- App Dev: Android Studio (academic projects)
 
 ---
+
+### 🏆 Academic Achievements  
+- 🏅 Academic Year Topper – M.Sc. IT
+- 🏅 Academic Year Topper – B.Sc. IT
+- 📚 Appointed as Assistant Professor under University of Mumbai
+
+--- 
+
 ### 📜 Certifications  
 ![Python](https://img.shields.io/badge/SoloLearn-Python%20Certified-blueviolet?style=for-the-badge&logo=python)  
 - 🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
@@ -30,18 +38,10 @@
 
 ---
 
-### 🏆 Academic Achievements  
-- 🏅 Academic Year Topper – M.Sc. IT
-- 🏅 Academic Year Topper – B.Sc. IT
-- 📚 Appointed as Assistant Professor under University of Mumbai
-
----
-
-### 💫 Fun Facts  
-- 💜 K-pop makes my code sessions extra sparkly  
-- ☁️ I believe in dreaming big and coding with heart  
-- 🎯 Always up for creating tech with purpose
-- 🔬 Research Interests about AI
+### 🔬 Research Interests 
+- Responsible AI 
+- Deepfake Detection
+- AI in Education
 
 ---
 
