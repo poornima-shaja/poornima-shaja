@@ -1,6 +1,7 @@
 # Hi there! I'm Poornima 👋
 
-👩‍🏫 Assistant Professor (IT/CS) under University of Mumbai
+👩‍🏫 Assistant Professor (IT/CS) under
+University of Mumbai
 🎓 Academic Year Topper – B.Sc. & M.Sc. IT
 👩🏻‍💻 Python Developer | AI & Applied Computing Enthusiast
 📚 Exploring AI Applications & Research-Oriented Projects
@@ -19,7 +20,6 @@
 ### 🏆 Academic Achievements  
 - 🏅 Academic Year Topper – M.Sc. IT
 - 🏅 Academic Year Topper – B.Sc. IT
-- 📚 Appointed as Assistant Professor under University of Mumbai
 
 --- 
 
