@@ -38,6 +38,12 @@
 
 ---
 
+### 📚 Professional Development
+- CS50’s Web Programming with Python & JavaScript – In Progress
+- freeCodeCamp – Responsive Web Design Certification (In Progress)
+
+---
+
 ### 🔬 Research Interests 
 - Responsible AI 
 - Deepfake Detection
