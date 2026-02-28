@@ -29,6 +29,13 @@
 
 ---
 
+### 🏆 Academic Achievements  
+- 🏅 Academic Year Topper – M.Sc. IT
+- 🏅 Academic Year Topper – B.Sc. IT
+- 📚 Appointed as Assistant Professor under University of Mumbai
+
+---
+
 ### 💫 Fun Facts  
 - 💜 K-pop makes my code sessions extra sparkly  
 - ☁️ I believe in dreaming big and coding with heart  
