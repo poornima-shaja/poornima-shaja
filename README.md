@@ -46,8 +46,8 @@ University of Mumbai
 
 ### 🔬 Research Interests 
 - Responsible AI 
-- Deepfake Detection System
-- AI in Education
+- Deepfake Detection Systems
+- AI Applications in Education
 
 ---
 
