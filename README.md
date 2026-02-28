@@ -4,7 +4,7 @@
 🎓 Academic Year Topper – B.Sc. & M.Sc.
 🧠 AI & Applied Computing Enthusiast 
 🧠 Passionate about AI, Flask & Real-World Projects  
-🌱 Currently learning: Advanced Python, DSA, & AI
+📚 Currently exploring: Advanced AI Applications & Research-Oriented Projects
 
 ---
 
