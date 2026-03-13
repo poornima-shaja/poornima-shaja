@@ -32,9 +32,9 @@
 🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
 *Issued by SoloLearn – Completed June 2025*
 
-![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-RWD-green?style=flat-square&logo=freecodecamp)
-🌐 **Responsive Web Design Certification** – [View Certificate](Responsive_Web_Design_Certificate.png)  
-*Issued by freeCodeCamp – Completed March 2026*
+![HTML](https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design%20Certified-green?style=for-the-badge&logo=freecodecamp)
+- 🌐 **Responsive Web Design Certification** – [View Certificate](freecodecamp-responsive-web-design-certificate.png)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by freeCodeCamp – Completed on March 2026*
 
 ---
 
