@@ -36,6 +36,10 @@ University of Mumbai
 - 🌐 **HTML Certificate** – [View Certificate](solo_learn_HTML_Certificate.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on August 2020*
 
+![HTML](https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design%20Certified-green?style=for-the-badge&logo=freecodecamp)
+
+- 🌐 **Responsive Web Design Certification** – [View Certificate](Responsive_Web_Design_Certificate.png)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by freeCodeCamp – Completed on March 2026*
 ---
 
 ### 📚 Professional Development
