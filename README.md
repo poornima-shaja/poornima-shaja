@@ -28,23 +28,17 @@ University of Mumbai
 - 🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on June 2025*
 
-![Python](https://img.shields.io/badge/SoloLearn-Python%20Certified-blueviolet?style=for-the-badge&logo=python)  
-- 🐍 **Python Developer Certificate** – [View Certificate](Solo_learn_Python_Developer_Certificate.png)  
-&nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on May 2025*
-
-![HTML](https://img.shields.io/badge/SoloLearn-HTML%20Certified-orange?style=for-the-badge&logo=html5)  
-- 🌐 **HTML Certificate** – [View Certificate](solo_learn_HTML_Certificate.png)  
-&nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on August 2020*
-
 ![HTML](https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design%20Certified-green?style=for-the-badge&logo=freecodecamp)
-
 - 🌐 **Responsive Web Design Certification** – [View Certificate](Responsive_Web_Design_Certificate.png)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by freeCodeCamp – Completed on March 2026*
 ---
 
 ### 📚 Professional Development
 - CS50’s Web Programming with Python & JavaScript (Harvard) – In Progress
-- freeCodeCamp – Responsive Web Design Certification (In Progress)
+
+![Coursera](https://img.shields.io/badge/Coursera-Excel%20Project%20Management-blue?style=for-the-badge&logo=coursera)
+- 📊 **Create a Project Management Tracker using Microsoft Excel** – [View Certificate](coursera_excel_project_management_certificate.png)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by Coursera – Completed in 2026*
 
 ---
 
