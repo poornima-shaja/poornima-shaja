@@ -28,11 +28,11 @@
 
 ### 📜 Certifications  
 
-![Python](https://img.shields.io/badge/SoloLearn-Python%20Intermediate-blueviolet?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/SoloLearn-Python%20Intermediate-blueviolet?style=flat-square&logo=python)
 🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
 *Issued by SoloLearn – Completed June 2025*
 
-![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-RWD-green?style=for-the-badge&logo=freecodecamp)
+![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-RWD-green?style=flat-square&logo=freecodecamp)
 🌐 **Responsive Web Design Certification** – [View Certificate](Responsive_Web_Design_Certificate.png)  
 *Issued by freeCodeCamp – Completed March 2026*
 ---
@@ -40,7 +40,7 @@
 ### 📚 Professional Development
 - CS50’s Web Programming with Python & JavaScript (Harvard) – In Progress
 
-![Coursera](https://img.shields.io/badge/Coursera-Excel%20Project-blue?style=for-the-badge&logo=coursera)
+![Coursera](https://img.shields.io/badge/Coursera-Excel%20Project-blue?style=flat-square&logo=coursera)
 - 📊 **Create a Project Management Tracker using Microsoft Excel** – [View Certificate](coursera_excel_project_management_certificate.pdf)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by Coursera – Completed in 2026*
 
