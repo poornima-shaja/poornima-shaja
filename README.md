@@ -37,7 +37,7 @@ University of Mumbai
 - CS50’s Web Programming with Python & JavaScript (Harvard) – In Progress
 
 ![Coursera](https://img.shields.io/badge/Coursera-Excel%20Project%20Management-blue?style=for-the-badge&logo=coursera)
-- 📊 **Create a Project Management Tracker using Microsoft Excel** – [View Certificate](coursera_excel_project_management_certificate.png)  
+- 📊 **Create a Project Management Tracker using Microsoft Excel** – [View Certificate](coursera_excel_project_management_certificate.pdf)  
 &nbsp;&nbsp;&nbsp;&nbsp;*Issued by Coursera – Completed in 2026*
 
 ---
