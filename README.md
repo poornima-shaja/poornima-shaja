@@ -35,6 +35,7 @@
 ![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-RWD-green?style=flat-square&logo=freecodecamp)
 🌐 **Responsive Web Design Certification** – [View Certificate](Responsive_Web_Design_Certificate.png)  
 *Issued by freeCodeCamp – Completed March 2026*
+
 ---
 
 ### 📚 Professional Development
