@@ -7,10 +7,6 @@
 
 ---
 
-![Poornima's GitHub stats](https://github-readme-stats.vercel.app/api?username=poornima-shaja&show_icons=true&theme=default)
-
----
-
 ### 🛠 Tech Stack  
 - Languages: Python, HTML, CSS, SQL
 - Frameworks: Flask (projects), Django (basics)
