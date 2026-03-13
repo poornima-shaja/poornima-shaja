@@ -1,7 +1,6 @@
 # Hi there! I'm Poornima 👋
 
-👩‍🏫 Assistant Professor (IT/CS) under
-University of Mumbai
+👩‍🏫 Assistant Professor (IT/CS) – University of Mumbai
 🎓 Academic Year Topper – B.Sc. & M.Sc. IT
 👩🏻‍💻 Python Developer | AI & Applied Computing Enthusiast
 📚 Exploring AI Applications & Research-Oriented Projects
@@ -58,4 +57,4 @@ University of Mumbai
 
 ### 📫 Let’s Connect!  
 - 📧 Email: poornimanadar1234@gmail.com  
-- 💼 LinkedIn: (https://www.linkedin.com/in/poornima-shunmuganathan-2285b5241/)
+- 💼 LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/poornima-shunmuganathan-2285b5241/)
