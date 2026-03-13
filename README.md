@@ -28,9 +28,9 @@
 
 ### 📜 Certifications  
 
-![Python](https://img.shields.io/badge/SoloLearn-Python%20Intermediate-blueviolet?style=flat-square&logo=python)
-🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
-*Issued by SoloLearn – Completed June 2025*
+![Python](https://img.shields.io/badge/SoloLearn-Python%20Intermediate-blueviolet?style=for-the-badge&logo=python)  
+- 🐍 **Python Developer Intermediate Certificate** – [View Certificate](Solo_learn_Python_Developer_Intermediate_Certificate.png)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by SoloLearn – Completed on June 2025*
 
 ![HTML](https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design%20Certified-green?style=for-the-badge&logo=freecodecamp)
 - 🌐 **Responsive Web Design Certification** – [View Certificate](freecodecamp-responsive-web-design-certificate.png)  
