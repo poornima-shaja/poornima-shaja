@@ -52,4 +52,4 @@
 
 ### 📫 Let’s Connect!  
 - 📧 Email: poornimanadar1234@gmail.com  
-- 💼 LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/poornima-shunmuganathan-2285b5241/)
+- 💼 LinkedIn: [Connect with me on LinkedIn](www.linkedin.com/in/poornima-shanmuganathan)
