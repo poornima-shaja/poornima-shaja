@@ -35,7 +35,10 @@
 ---
 
 ### 📚 Professional Development
-- CS50’s Web Programming with Python & JavaScript (Harvard) – In Progress
+
+![CS50W](https://img.shields.io/badge/Harvard-CS50W%20Web%20Programming-red?style=for-the-badge&logo=edx)
+- 🌐 **CS50’s Web Programming with Python & JavaScript** – [View Certificate](CS50W.pdf)  
+&nbsp;&nbsp;&nbsp;&nbsp;*Issued by Harvard (CS50) – Completed in 2026*
 
 ![Coursera](https://img.shields.io/badge/Coursera-Excel%20Project%20Management-blue?style=for-the-badge&logo=coursera)
 - 📊 **Create a Project Management Tracker using Microsoft Excel** – [View Certificate](coursera_excel_project_management_certificate.png)  
